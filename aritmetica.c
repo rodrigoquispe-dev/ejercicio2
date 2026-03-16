@@ -1,17 +1,17 @@
 #include <stdio.h>
 
-int suma(int a, int b){
+// Funcion de Rodrigo Quispe Vargas
+int sumaRodrigoQuispe(int a, int b){
     return a + b;
 }
 
-int restaRodrigoQuispe(int a, int b){
-    return a - b;
-}
+int main(){
 
-int multiplicacion(int a, int b){
-    return a * b;
-}
+    int r;
 
-int division(int a, int b){
-    return a / b;
+    r = sumaRodrigoQuispe(5,3);
+
+    printf("Resultado: %d", r);
+
+    return 0;
 }
