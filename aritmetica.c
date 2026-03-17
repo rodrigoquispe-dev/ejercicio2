@@ -87,7 +87,23 @@ int main(){
     return 0;
 }
 
+#include <stdio.h>
 
+// Funcion de Vladimir Camacho Cabrera
+int calcularModulo(int a, int b) {
+    // Metodo de Vladimir Camacho Cabrera
+    int res = a % b;
+    printf("El modulo es: %d\n", res);
+    return res;
+}
+
+int main() {
+
+    int a = 17;
+    int b = 5;
+    int resultado = calcularModulo(a, b);
+    return 0;
+}
 
 
 
