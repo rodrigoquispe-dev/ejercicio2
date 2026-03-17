@@ -16,7 +16,15 @@ double valorAbsoluto(double numero){
 		return numero;
 }
 
+#include <math.h>
+int main() {
+    double numero = 64.0;
+    // Elevamos a la 1/3
+    double resultado = pow(numero, 1.0/3.0);
 
+    printf("La raiz cubica de %.2f es %.2f\n", numero, resultado);
+    return 0;
+}
 
 
 
