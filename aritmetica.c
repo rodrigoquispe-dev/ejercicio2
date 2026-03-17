@@ -1,17 +1,18 @@
-#include <stdio.h>
-
-// Funcion de Rodrigo Quispe Vargas
-int sumaRodrigoQuispe(int a, int b){
-    return a + b;
+#includeint multiplicacionDeValoresTellezManuel(){
+    int num1, num2;
+    
+    printf("Ingrese el primer numero: ");
+    scanf("%d", &num1);
+    
+    printf("Ingrese el segundo numero: ");
+    scanf("%d", &num2);
+    
+    int resultado = num1 * num2;
+    return resultado;
 }
-
 int main(){
-
-    int r;
-
-    r = sumaRodrigoQuispe(5,3);
-
-    printf("Resultado: %d", r);
-
+    int res;
+    res = multiplicacionDeValoresTellezManuel();
+    printf("El resultado de la multiplicacion es: %d\n", res);
     return 0;
 }
