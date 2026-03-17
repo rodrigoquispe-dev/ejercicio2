@@ -15,7 +15,7 @@ double valorAbsoluto(double numero){
 	else
 		return numero;
 }
-
+//gonzalo raiz cuadrada
 #include <math.h>
 int main() {
     double numero = 64.0;
@@ -25,6 +25,7 @@ int main() {
     printf("La raiz cubica de %.2f es %.2f\n", numero, resultado);
     return 0;
 }
+//gonzalo raiz cuadrada
 
 
 
