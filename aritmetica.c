@@ -67,9 +67,10 @@ int main(){
 
     return 0;
 }
-// Funcion Resta de Jose Pardo
+
 
 #include <stdio.h>
+
 // Funcion de Rodrigo Quispe Vargas
 int sumaRodrigoQuispe(int a, int b){
     return a + b;
